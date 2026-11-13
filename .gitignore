@@ -47,3 +47,8 @@ node_modules/
 **/github_copilot/
 
 misc/
+
+# --- Claude Code managed skill state ---
+# synced/ holds Anthropic's claude.ai skills (proprietary licence), .trash/ is deleted copies
+claude/.claude/skills/synced/
+claude/.claude/skills/.trash/
