@@ -1,4 +1,4 @@
-model = "gpt-6.1-sol"
+model = "gpt-6.2-sol"
 model_reasoning_effort = "xhigh"
 approvals_reviewer = "auto_review"
 notify = ["jaynalerts", "codex-hook"]
@@ -90,27 +90,27 @@ enabled = false
 
 [hooks.state."agentmemory@agentmemory:hooks/hooks.codex.json:pre_tool_use:0:0"]
 trusted_hash = "sha256:72fade31ac7a95e92bef200e83eae770f6961a9f6ff9f12596c3bccc1dfc566e"
-trusted_content_hash = "sha256:6c0f55e09bdd08db563beda31c7dbe69b0066ee3170130e2db847b733a04559b"
+trusted_content_hash = "sha256:c810d933f5d9908b69cd78178a3fada197cab11213843eb3da4384aace6ab7ba"
 
 [hooks.state."agentmemory@agentmemory:hooks/hooks.codex.json:post_tool_use:0:0"]
 trusted_hash = "sha256:1b8a64f14c07f7f42d9e22ba4b4907027dbd7e4dc5d4db6c34c53b9263b2620b"
-trusted_content_hash = "sha256:6c0f55e09bdd08db563beda31c7dbe69b0066ee3170130e2db847b733a04559b"
+trusted_content_hash = "sha256:c810d933f5d9908b69cd78178a3fada197cab11213843eb3da4384aace6ab7ba"
 
 [hooks.state."agentmemory@agentmemory:hooks/hooks.codex.json:pre_compact:0:0"]
 trusted_hash = "sha256:2d124c2cc70523587a243fb166c16aa343b2fca616fd9f77bd44ab74a75bcfae"
-trusted_content_hash = "sha256:6c0f55e09bdd08db563beda31c7dbe69b0066ee3170130e2db847b733a04559b"
+trusted_content_hash = "sha256:c810d933f5d9908b69cd78178a3fada197cab11213843eb3da4384aace6ab7ba"
 
 [hooks.state."agentmemory@agentmemory:hooks/hooks.codex.json:session_start:0:0"]
 trusted_hash = "sha256:7b09a5a4e6f0bd5f6c7441a26e91fd060c1b4481028cc26aded89331ef90a8b0"
-trusted_content_hash = "sha256:6c0f55e09bdd08db563beda31c7dbe69b0066ee3170130e2db847b733a04559b"
+trusted_content_hash = "sha256:c810d933f5d9908b69cd78178a3fada197cab11213843eb3da4384aace6ab7ba"
 
 [hooks.state."agentmemory@agentmemory:hooks/hooks.codex.json:user_prompt_submit:0:0"]
 trusted_hash = "sha256:8f9e09b1ebf8c8b80a16c1c50203868d851c33942ce8e7cc1b26c4e4b6de891d"
-trusted_content_hash = "sha256:6c0f55e09bdd08db563beda31c7dbe69b0066ee3170130e2db847b733a04559b"
+trusted_content_hash = "sha256:c810d933f5d9908b69cd78178a3fada197cab11213843eb3da4384aace6ab7ba"
 
 [hooks.state."agentmemory@agentmemory:hooks/hooks.codex.json:stop:0:0"]
 trusted_hash = "sha256:b9dfa7fe6d1c0cb5d9c539f73f44f7239043bfc2751126c317360b1dde249a3a"
-trusted_content_hash = "sha256:6c0f55e09bdd08db563beda31c7dbe69b0066ee3170130e2db847b733a04559b"
+trusted_content_hash = "sha256:c810d933f5d9908b69cd78178a3fada197cab11213843eb3da4384aace6ab7ba"
 
 [hooks.state."/Users/maxence/.codex/hooks.json:permission_request:0:0"]
 trusted_hash = "sha256:c1723a01b67f918c331a806feba171453c21b914bcb4654c35c5d7abece812ef"
